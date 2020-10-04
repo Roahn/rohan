@@ -1,0 +1,68 @@
+.ratebox{
+  width:inherit;
+  background-color: inherit;
+  height:50px;
+  box-sizing: content-box;
+  display: flex;
+  color: 	#00868b;
+}
+
+
+.rate{
+  width:100px;
+  height: auto;
+  font-size:30px;
+  font-weight: bold;
+  color:red;
+  width:80%;
+  background-color: yellow;
+  margin-left: 200px;
+
+
+}
+
+
+.ratecon{
+
+
+  width:130px;
+  height:inherit;
+  background-color:	#1e453e;
+  font-size:30px;
+  font-weight: bold;
+  border-radius: 20px;
+  border: solid inherit;
+  margin-left: 20px;
+}
+
+
+
+.arrow img{
+  height: 50px;
+}
+
+
+
+.ratecon :hover .dropdown{
+display:contents;
+
+
+}
+
+
+
+
+
+
+
+
+.dropdown{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+
+}

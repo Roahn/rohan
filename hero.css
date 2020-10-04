@@ -1,0 +1,96 @@
+
+body{
+
+  padding:0px;
+  background-color: 	#fffff4;
+  margin:0px;
+  padding:0px;
+}
+
+.menubar ul li :hover.rmenu{
+  visibility: visible;
+      display:block;
+  opacity: 1;
+  position: absolute;
+  background-color: green;
+
+  margin-top: 15px;
+ margin-left: -15px;
+}
+ .menubar ul li :hover.submenu{
+   visibility: visible;
+   display:block;
+   opacity: 1;
+   position: absolute;
+   background-color:green;
+
+   margin-top: 15px;
+  margin-left: -15px;
+ }
+
+ .menubar ul li :hover.submenu ul{
+   display:block;
+visibility: visible;
+ }
+
+
+.hero{
+  background-image: url(img/card.gif);
+background-size: cover;
+width:inherit;
+padding: 0;
+margin-top: 0;
+height:850px;
+}
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+
+.menubar{
+background-color: inherit;
+text-align:justify;
+
+/*  background: rgba(0, 0, 0, 0);*/
+
+}
+
+.menubar ul {
+  display:inline-flex;
+  list-style: none;
+  color: white;
+  background-color: transparent;
+
+
+}
+.menubar ul li{
+width: 120px;
+margin: 15px;
+padding: 15px;
+
+}
+
+.menubar ul li a{
+text-decoration: none;
+color: white;
+
+
+}
+
+ .menubar ul li:hover{
+  background-color: #2bab0d;
+  border-radius: 3px;
+
+}
+.submenu{
+opacity: 0;
+overflow: hidden;
+
+
+}
+.rmenu{opacity: 0;
+  overflow: hidden;
+}
+.

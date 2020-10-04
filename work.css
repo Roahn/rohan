@@ -1,0 +1,79 @@
+.work{
+width:inherit;
+height:700px;
+position: relative;
+background-color:		#fffff4;
+
+
+}
+.workbox{
+  display:grid;
+  grid-gap: 0px;
+padding: 0px;
+  grid: auto auto / auto auto auto;
+
+width: inherit;
+height:400px;
+position: relative;
+background-color:#777777;
+}
+
+
+.workimg{
+width:1046/3;
+height: 320px;
+
+
+}
+.workimg{
+
+border-radius: 10px;
+border: solid black;
+width: auto;
+height: 350px;
+
+
+}
+.i1{
+
+background-image:url(img/tomato.jpeg);
+background-size:cover;
+width: 100%;
+height: 100%;
+}
+
+.i2{
+
+background-image:url(img/potato.jpeg);
+background-size:cover;
+width: 100%;
+height: 100%;
+}
+.i3{
+
+background-image:url(img/cotton.jpeg);
+background-size:cover;
+width: 100%;
+height: 100%;
+}
+.i4{
+
+background-image:url(img/apple.jpeg);
+background-size:cover;
+width: 100%;
+height: 100%;
+}
+.i5{
+
+background-image:url(img/corn.jpeg);
+background-size:cover;
+width: 100%;
+height: 100%;
+}
+.i6{
+
+background-image:url(img/rusberry.jpeg);
+background-size:cover;
+width: 100%;
+height: 100%;
+}

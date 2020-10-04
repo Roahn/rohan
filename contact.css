@@ -1,0 +1,83 @@
+.contact{
+
+    width: inherit;
+    height: 600px;
+
+    background-color:#fffff4;
+    
+}
+
+
+.so{
+
+  border: black;
+  border-radius: 17px;
+
+  height:500px;
+}
+
+
+
+
+
+
+.title{
+width:auto;
+
+height: 50px;
+top: 10px;
+margin-left:50;
+
+align-items: center;
+
+
+}
+#title{
+color:black;
+align-self:center;
+background-color:transparent;
+width: auto;
+font-style: bold;
+align-self: center;
+margin-top: 10px;
+}
+
+
+.social{
+width:inherit;
+display: flex;
+justify-content:space-between;
+height:500px;
+flex-wrap:wrap;
+
+border:solid black;
+background-color:#fffff4;
+top:100px;
+margin-top: 30px;
+left:0px;
+
+
+
+}
+.so1 img{
+background:transparent;
+width:100%;
+margin:0px;
+height:50%;
+
+
+}
+.so img{
+  border:solid black;
+  border-radius: 17px;
+margin-top: 40px;
+  margin-bottom: 0px;
+}
+
+
+#kia{
+
+  margin-left: 10px;
+  margin-top: 60px;
+
+}
