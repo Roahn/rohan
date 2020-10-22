@@ -1,0 +1,46 @@
+@media only screen and (max-width:500px)
+ {.hero{
+   background-image: url(img/hh.png);
+   background-position:left;
+ background-size: cover;
+ width:inherit;
+ padding: 0;
+ margin-top: 0;
+ height:400px;
+ width: 500px;
+ }
+ .menubar ul li{
+ width: 60px;
+ margin: 7px;
+ padding: 7px;
+
+ }
+.active .rmenu{
+display: none;
+}
+.workimg{
+  height: 100px;
+}
+.workbox{
+  height: 201px;
+}
+.work{
+  height: 300px;
+}
+.title{
+
+font-size: 8px;
+
+}
+br{
+  display: none;
+}
+
+.container{
+
+height: 150;
+}
+
+
+
+}
